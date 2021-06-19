@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calender App</title>
+    <link rel="stylesheet" href="css/style.css" type='text/css'>
+</head>
+<body>
+	<div class='app_name'>CALENDER</div>
+    <div id="wrapper">
+        <div class="text_date_container">
+            <div class='icons_container'>
+                <span class='left_arrow_icon' data-jam='chevron-left' data-fill='white'></span>
+                <span class='plus_icon' data-jam='plus-circle' data-fill='white'></span>
+            </div>
+            <div class='date_day_container'>
+				<div>
+                    <h3 class="day"></h3>
+                </div>
+                <div>
+                    <h1  class="date"></h1>
+                </div>
+				<small>of</small>
+				<div class='month_str'></div>
+            </div>
+            <div class="events_container">
+                <ul class='event_list'>
+                </ul>
+            </div>
+        </div>
+        <div class="calender_container">
+            <div class="year_calender">
+                <i data-jam='calendar-alt'></i>
+                <h1 class='year'>2020</h1>
+            </div>
+            <div class="month_container">
+                <span class='arrow_left'><i data-jam='chevron-left' ></i></span>
+                <h2 class='month'></h2>
+               <span class='arrow_right'><i data-jam='chevron-right' ></i></span> 
+            </div>
+            <div class="table_container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th data-weekday='Sun' data-column='0'>su</th>
+                            <th data-weekday='Mon' data-column='1'>mo</th>
+                            <th data-weekday='Tue' data-column='2'>tu</th>
+                            <th data-weekday='Wed' data-column='3'>we</th>
+                            <th data-weekday='Thu' data-column='4'>th</th>
+                            <th data-weekday='Fri' data-column='5'>fr</th>
+                            <th data-weekday='Sat' data-column='6'>sa</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr  data-row='0'>
+                            <td data-column='0'></td>
+                            <td data-column='1'></td>
+                            <td data-column='2'></td>
+                            <td data-column='3'></td>
+                            <td data-column='4'></td>
+                            <td data-column='5'></td>
+                            <td data-column='6'></td>
+                        </tr>
+                        <tr  data-row='1'>
+                            <td data-column='0'></td>
+                            <td data-column='1'></td>
+                            <td data-column='2'></td>
+                            <td data-column='3'></td>
+                            <td data-column='4'></td>
+                            <td data-column='5'></td>
+                            <td data-column='6'></td>
+                        </tr>
+                        <tr  data-row='2'>
+                            <td data-column='0'></td>
+                            <td data-column='1'></td>
+                            <td data-column='2'></td>
+                            <td data-column='3'></td>
+                            <td data-column='4'></td>
+                            <td data-column='5'></td>
+                            <td data-column='6'></td>
+                        </tr>
+                        <tr  data-row='3'>
+                            <td data-column='0'></td>
+                            <td data-column='1'></td>
+                            <td data-column='2'></td>
+                            <td data-column='3'></td>
+                            <td data-column='4'></td>
+                            <td data-column='5'></td>
+                            <td data-column='6'></td>
+                        </tr>
+                        <tr  data-row='4'>
+                            <td data-column='0'></td>
+                            <td data-column='1'></td>
+                            <td data-column='2'></td>
+                            <td data-column='3'></td>
+                            <td data-column='4'></td>
+                            <td data-column='5'></td>
+                            <td data-column='6'></td>
+                        </tr>
+                        <tr  data-row='5'>
+                            <td data-column='0'></td>
+                            <td data-column='1'></td>
+                            <td data-column='2'></td>
+                            <td data-column='3'></td>
+                            <td data-column='4'></td>
+                            <td data-column='5'></td>
+                            <td data-column='6'></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    
+    
+
+    <script src="js/jam.min.js"></script>
+    <script src='js/calender.js' type='text/javascript'></script>
+</body>
+</html>
